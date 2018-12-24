@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include<iostream>
-using namespace std;
+
 #include "mytuple.h"
 #include "relation.h"
 #include "segmentation.h"
 #include "radix_hash_join.h"
 
-
+using namespace std;
 
 
 //This main is for testing purpose only,.
