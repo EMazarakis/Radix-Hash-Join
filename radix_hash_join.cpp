@@ -3,17 +3,18 @@
 Radix_Hash_Join::Radix_Hash_Join(int N){
 
     this->nDigits = N;
-    this->relR = NULL;
-    this->relS = NULL;
+    //this->relR = NULL;
+    //this->relS = NULL;
 }
 
+/*
 Radix_Hash_Join::Radix_Hash_Join(int N, relation *R, relation *S){
 
     this->nDigits = N;
     this->relR = R;
     this->relS = S;
 }
-
+*/
 
 void Radix_Hash_Join::RHJ_segmentationPhase(segmentation *relSegm){
 

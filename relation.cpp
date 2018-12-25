@@ -31,3 +31,16 @@ int relation::getNumTuples(void){
 
     return numTuples;
 }
+
+
+void relation::printTuples(void){
+
+    cout << "Printing all the tuples." << endl;
+
+    for(int i=0; i<this->numTuples; i++){
+
+        printf("(key,payload)=(%d,%d) \n",this->tuplesArray[i].getKey(), this->tuplesArray[i].getPayload());
+    }
+
+    cout << endl;
+}

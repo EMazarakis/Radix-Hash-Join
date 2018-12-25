@@ -18,6 +18,9 @@ public:
     void setNumTuples(int sizeOfArray);
     myTuple *getTuplesArray(void);
     int getNumTuples(void);
+
+    void printTuples(void);
+
 };
 
 #endif // RELATION_H

@@ -48,8 +48,16 @@ int main(void){
 
 
 //Printings
+    segmPtrA->getRel()->printTuples();
+
     segmPtrA->printHistogram();
     segmPtrA->printPrefixSum();
 
+     segmPtrA->getReordRel()->printTuples();
+
     return 1;
+
+
+
+
 }

@@ -56,6 +56,8 @@ void segmentation::printHistogram(void){
 
         printf("(Bucket,#Elements)=(%d,%d) \n",i, Histogram[i]);
     }
+
+    cout << endl;
 }
 
 void segmentation::printPrefixSum(void){
@@ -66,6 +68,7 @@ void segmentation::printPrefixSum(void){
 
          printf("(Bucket,startIndex)=(%d,%d) \n",i, Psum[i]);
     }
+    cout << endl;
 }
 
 

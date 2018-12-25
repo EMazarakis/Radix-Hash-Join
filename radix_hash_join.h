@@ -11,12 +11,12 @@ class Radix_Hash_Join
 private:
 
     int nDigits;        //number Of less important Digits
-    relation *relR;     //relation R
-    relation *relS;     //relation S
+    //relation *relR;     //relation R
+    //relation *relS;     //relation S
 
 public:
 
-    Radix_Hash_Join(int N, relation *R, relation *S);
+    //Radix_Hash_Join(int N, relation *R, relation *S);
     Radix_Hash_Join(int N);
 
     //First
